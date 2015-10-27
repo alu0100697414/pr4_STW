@@ -1,0 +1,43 @@
+{
+  "name": "practica1",
+  "version": "1.0.0",
+  "description": "En esta primera práctica de la asignaturá realizaremos una aproximación que nos servirá de introducción a JS junto con HTML, CSS, Emmet y packpage.json. Además, para las pruebas haremos uso de Mocha y Chai.",
+  "main": "temp.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alu0100697414/pr1_STW.git"
+  },
+  "author": "Jose Angel Concepcion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100697414/pr1_STW/issues"
+  },
+  "homepage": "https://github.com/alu0100697414/pr1_STW",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "*",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-mocha": "*",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "karma": "~0.12",
+    "karma-chrome-launcher": "*",
+    "karma-firefox-launcher": "*",
+    "karma-html2js-preprocessor": "*",
+    "karma-mocha": "^0.2.0",
+    "mocha": "*",
+    "karma-chai": "*",
+    "node-static": "~0.7.6",
+    "bower": "*"
+  }
+}
