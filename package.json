@@ -38,6 +38,8 @@
     "mocha": "*",
     "karma-chai": "*",
     "node-static": "~0.7.6",
-    "bower": "*"
+    "bower": "*",
+    "express": "*",
+    "path": "*"
   }
 }
