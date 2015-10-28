@@ -41,12 +41,14 @@ Finalmente, solo nos queda ejecutar nodejs para ver desplegada nuestra aplicaci�
 Para ver que todo funciona correctamente, accedemos al [enlace](http://10.6.128.79:8080/index.html).
 
 
-## Datos de interés 
+## Datos de interés
 
 - [Web de Github](http://alu0100697414.github.io/).
 - [Web del repositorio de la práctica](https://github.com/alu0100697414/pr4_STW/tree/master).
 - [Web de la práctica - IAAS](http://10.6.128.79:8080/index.html).
-- [Web del recubrimiento (blanket)](http://10.6.128.79:8080/test/test_blanket.html).
+- [Web de la práctica - GH-PAGES](http://alu0100697414.github.io/pr3_STW/).
+- [Web del recubrimiento (blanket-IAAS)](http://10.6.128.79:8080/test/test_blanket.html).
+- [Web del recubrimiento (blanket-GH-PAGES)](http://alu0100697414.github.io/pr4_STW/test/test_blanket.html).
 - [Web de Travis](https://travis-ci.org/alu0100697414/pr4_STW).
 - [Guía docente de la asignatura](http://eguia.ull.es/etsii/query.php?codigo=139264512).
 - Contacto: alu0100697414@ull.edu.es
