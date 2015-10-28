@@ -31,8 +31,8 @@ Nos pedirá la contraseña y posteriormente, se subirán los ficheros.
 Ahora lo que haremos será clonar el repositorio en la máquina virtual e instalar npm así como las dependecias del proyecto. Los comandos necesarios son:
 
 <pre> git clone https://github.com/alu0100697414/pr4_STW.git </pre>
-<pre> npm install </pre>
 <pre> sudo apt-get install npm </pre>
+<pre> npm install </pre>
 
 Finalmente, solo nos queda ejecutar nodejs para ver desplegada nuestra aplicación Web. Para esto, vamos a la consola de la máquina virtual de forma online y ejecutamos el comando que vemos más abajo, de manera que se quede ejecutando la práctica en el servidor.
 
