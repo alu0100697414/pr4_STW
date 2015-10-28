@@ -41,7 +41,7 @@ Finalmente, solo nos queda ejecutar nodejs para ver desplegada nuestra aplicaci�
 Para ver que todo funciona correctamente, accedemos al [enlace](http://10.6.128.79:8080/index.html).
 
 
-## Datos de interés
+## Datos de interés 
 
 - [Web de Github](http://alu0100697414.github.io/).
 - [Web del repositorio de la práctica](https://github.com/alu0100697414/pr4_STW/tree/master).
