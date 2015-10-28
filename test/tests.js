@@ -2,13 +2,21 @@ var expect = chai.expect;
 
 describe("Test para ConverTemp", function() {
 
-  var fin = document.getElementById("resultado");
-  var ini = document.getElementById("inicial");
+    var fin = document.getElementById("resultado");
+    var ini = document.getElementById("inicial");
 
     it("Debería ser: 32e4F", function() {
       var temp = new Temperatura();
+
       temp.set_valor(32e4);
       temp.set_tipo("F");
+
+      var espia = sinon.spy();
+      espia(temp.get_valor());
+
+      expect(espia.called).to.be.true;
+      expect(espia.calledOnce).to.be.true;
+      expect(espia.firstCall.calledWith(32e4)).to.be.true;
 
       expect(temp.get_valor()).to.equal(32e4);
       expect(temp.get_tipo()).to.equal("F");
